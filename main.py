@@ -1,6 +1,8 @@
-def main():
-    print("Hello from llm-rag!")
+import os
+import dotenv
 
+dotenv.load_dotenv()
 
-if __name__ == "__main__":
-    main()
+OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+
+print(OPENAI_API_KEY)
