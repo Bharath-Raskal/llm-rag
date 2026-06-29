@@ -83,3 +83,9 @@ if st.button("Predict Churn Probability"):
         
         # Optionally, provide a progress bar
         st.progress(int(prediction_proba * 100))
+
+
+
+
+##cd to relative path before running
+        ##streamlit run 04_ANN_WebAppStreamLitNew.py
