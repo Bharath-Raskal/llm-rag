@@ -5,7 +5,7 @@ import pandas as pd
 
 # Load the trained model
 model = load_model('trained_model.h5')
-
+#model = load_model('JupyterNoteBook/09-ANN_Application_Project(Pending Handson)/trained_model.h5')
 # Load scaler and Encoders
 def load_pickle_file(filepath):
     try:
@@ -83,11 +83,3 @@ if st.button("Predict Churn Probability"):
         
         # Optionally, provide a progress bar
         st.progress(int(prediction_proba * 100))
-
-
-
-
-
-
-
-
